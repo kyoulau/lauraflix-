@@ -1,0 +1,95 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://img.freepik.com/free-vector/purple-fluid-background-frame_53876-99020.jpg?w=740&t=st=1675347125~exp=1675347725~hmac=56fee1016bb310b8ecc911fd399feaf88c00ea5db53076053217a091aefbbf2a");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: overlay;
+}
+body::-webkit-scrollbar {
+  width: 8px;}
+body::-webkit-scrollbar-track {
+	background: transparent; 
+  opacity: 0.2;}
+
+body::-webkit-scrollbar-thumb {
+	background-color: transparent; 
+	border-radius: 20px; 
+  border: 3px solid transparent;}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #4B0082;
+  margin: 0 0 5px;
+  order-radius:8px
+}
+
+.page-subtitle {
+  color: #483D8B;
+  margin-top: 5px;
+  order-radius:8px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+p > img:hover {
+
+  cursor: pointer;
+  box-shadow: 7px 7px 15px black;
+  transition: all 0.5s ease;  
+  max-height: 310px;
+  filter: grayscale(100%) brightness(50%) blur(0.5px); 
+}
+
+#listaFilmes img {
+  margin: 10px;
+  max-height: 250px;
+}
+
+.form-wrapper {
+  margin: 0 0 15px;
+}
+
+.form-wrapper input {
+  margin-top:10px;
+  border-radius:8px;
+  font-size:13px;
+  font-weight: bold;
+  font-family: "Roboto Mono", 
+}
+
+.form-wrapper button {
+  button{
+  margin-top:10px;
+  border-radius:8px;
+  font-size:15px;
+  font-weight: bold;
+  font-family: "Roboto Mono", monospace;
+  background-color: #da1e26;
+  color: white;
+}
+
+.form-wrapper button:hover {
+  opacity: 0.8;
+}
